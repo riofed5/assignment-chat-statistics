@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.page-header{
+  color: #918c8c
+}
+
+.content {
+  width: 100%;
+  padding: 1em 0;
+}
+
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.expandedRow {
+  display: flex;
+  flex-direction: column;
+}
+.expandedRowCell {
+  margin: 0;
+  flex: 1;
+}
+
+.statistic-container{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+  .content {
+      padding: 1em;
+  }
+
+  .input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .statistic-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
